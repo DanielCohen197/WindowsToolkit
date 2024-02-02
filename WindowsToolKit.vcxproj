@@ -154,13 +154,18 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="COMInitializer.hpp" />
     <ClInclude Include="Directory.hpp" />
     <ClInclude Include="File.hpp" />
     <ClInclude Include="FileSystemItem.hpp" />
     <ClInclude Include="IRegistryItem.hpp" />
+    <ClInclude Include="Process.hpp" />
+    <ClInclude Include="ProcessUtils.hpp" />
     <ClInclude Include="RegistryKey.hpp" />
     <ClInclude Include="RegistryValue.hpp" />
     <ClInclude Include="ResourceIterator.hpp" />
+    <ClInclude Include="ScreenCapturer.hpp" />
+    <ClInclude Include="WinEventHook.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
